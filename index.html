@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roguelike Clicker Dungeon Game Thing</title>
+    <link rel="stylesheet" href="./res/css/style.css">
+</head>
+<body>
+    <div id="mainMenu">
+        <img src="./res/img/mm.gif">
+        <div id="play">
+            <h1>Play</h1>
+        </div>
+        <div id="debug">
+            <h3>Debug Mode</h3>
+        </div>
+        <div id="openSponzors">
+            <h2>Sponzors</h2>
+        </div>
+        <div id="sponzors">
+            <div id="sponzor1">
+                <img src="./res/img/sponzors/1.png">
+                <h2>Sazka Simulator</h2>
+            </div>
+            <div id="sponzor2">
+                <img src="./res/img/sponzors/2.png">
+                <h2>Cat Fighter Ultimate</h2>
+            </div>
+            <div id="sponzor3">
+                <img src="./res/img/sponzors/3.png">
+                <h2>TF2 Clicker</h2>
+            </div>
+            <div id="sponzor4">
+                <img src="./res/img/sponzors/4.png">
+                <h2>PayDay Clicker</h2>
+            </div>
+            <div id="sponzor5">
+                <img src="./res/img/sponzors/5.png">
+                <h2>MineBlock</h2>
+            </div>
+            <div id="sponzor6">
+                <img src="./res/img/sponzors/6.png">
+                <h2>Fighting</h2>
+            </div>
+        </div>
+    </div>
+    <div id="battleMenu">
+        <div id="enemyDiv">
+            <h2 id="hit">Hit!</h2>
+            <h2 id="miss">Miss!</h2>
+            <div id="spawnEnemy">
+                <p>Input enemy ID</p>
+                <input type="text" id="enemyIDInput" value="0">
+                <button id="enemyIDSend">Spawn enemy</button>
+                <div id="spawnWeapons">
+                    <input type="text" id="weaponIDInput" value="0">
+                    <button id="weaponIDSend">Spawn weapon</button>
+                </div>
+            </div>
+            <div id="selectWeapon">
+                <h2>Select your weapon</h2>
+                <img src="./res/img/0.png" id="selectWeapon1">
+                <img src="./res/img/0.png" id="selectWeapon2">
+                <div id="weaponDisDiv">
+                    <p id="weaponDisDmg"></p>
+                    <p id="weaponDisCps"></p>
+                    <p id="weaponDis"></p>
+                </div>
+                <div id="selectWeaponConfirm">
+                    <h4>Confirm</h4>
+                </div>
+            </div>
+            <div id="levelUp">
+                <h2>Level Up!</h2>
+                <div id="hpLevelUp">
+                    <h1>HP</h1>
+                </div>
+                <div id="dmgLevelUp">
+                    <h1>Damage</h1>
+                </div>
+                <div id="speedLevelUp">
+                    <h1>Speed</h1>
+                </div>
+                <div id="confirmLevelUp">
+                    <h1>Confirm</h1>
+                </div>
+            </div>
+            <div id="loot">
+                <h2 id="lootInfo">You got nothing. :c</h2>
+                <img src="" id="lootImg">
+                <div id="selectLoot">
+                    <h3 id="currentLoot">Current</h3>
+                    <img src="" id="selectLoot1">
+                    <img src="" id="selectLoot2">
+                </div>
+                <h2 id="selectLootConfirm">Confirm</h2>
+            </div>
+            <img id="enemy" src="" unselectable="on">
+        </div>
+        <div id="topUI">
+            <div id="playerStats">
+                <h3>Player Stats</h3>
+                <p id="playerHP">HP: 0 / 0</p>
+                <p id="playerDmg">Dmg: 0</p>
+                <p id="playerCps">Clicks per second: 0</p>
+            </div>
+            <div id="playerLvl">
+                <p id="playerGold">Gold: 0</p>
+                <p id="playerExp">Exp: 0</p>
+                <p id="playerHPLvl">HP Level: 0</p>
+                <p id="playerDmgLvl">Damage Level: 0</p>
+                <p id="playerSpeedLvl">Speed Level: 0</p>
+            </div>
+            <div id="dungeonStats">
+                <h3>DUNGEON</h3>
+                <p id="dungeonFloor">Floor: 1</p>
+                <p id="dungeonChamber">Chamber: 1</p>
+            </div>
+            <div id="enemyStats">
+                <h3>Enemy Stats</h3>
+                <p id="enemyHP">HP: 0 / 0</p>
+                <p id="enemyLevel">Level: 1</p>
+            </div>
+        </div>
+        <div id="bottomUI">
+            <div id="dodge">
+                <p>DODGE</p>
+                <p id="dodgeIndicator">not charged</p>
+            </div>
+            <div id="warning">
+                <p><b>WARING: ATTACK INCOMING</b></p>
+            </div>
+        </div>
+        <div id="rightUI">
+            <div id="gear">
+                <img src="./res/img/0.png" id="weapon">
+            </div>
+            <div id="perks">
+
+            </div>
+        </div>
+        <div id="leftUI">
+
+        </div>
+    </div>
+
+    <script src="./res/js/main.js"></script>
+</body>
+</html>

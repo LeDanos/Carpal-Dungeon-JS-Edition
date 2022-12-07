@@ -621,6 +621,8 @@ const getLoot=()=>{
     }
     selectLootConfirm.onclick=()=>{
         if(lootType==1){
+            selectLoot.style.display="none"
+            currentLoot.style.display="none"
             weaponID=selectedLoot
             weaponSpawnID()
         }

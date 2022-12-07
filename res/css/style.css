@@ -312,70 +312,83 @@
     top: 5%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor2{
     position: absolute;
     left: 40%;
     top: 5%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor3{
     position: absolute;
     left: 70%;
     top: 5%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor4{
     position: absolute;
     left: 10%;
     top: 50%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor5{
     position: absolute;
     left: 40%;
     top: 50%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor6{
     position: absolute;
     left: 70%;
     top: 50%;
     width: 20%;
     height: 40%;
+    border: 5px solid rgb(22, 22, 22);
 }#sponzor1 img{
     position: absolute;
     height: 80%;
 }#sponzor1 h2{
     position: absolute;
     top: 80%;
+    color: white;
+    left: 12%;
 }#sponzor2 img{
     position: absolute;
     height: 80%;
 }#sponzor2 h2{
     position: absolute;
     top: 80%;
+    color: white;
 }#sponzor3 img{
     position: absolute;
     height: 80%;
 }#sponzor3 h2{
     position: absolute;
     top: 80%;
+    color: white;
 }#sponzor4 img{
     position: absolute;
     height: 80%;
 }#sponzor4 h2{
     position: absolute;
     top: 80%;
+    color: white;
 }#sponzor5 img{
     position: absolute;
     height: 80%;
 }#sponzor5 h2{
     position: absolute;
     top: 80%;
+    color: white;
 }#sponzor6 img{
     position: absolute;
     height: 80%;
 }#sponzor6 h2{
     position: absolute;
     top: 80%;
+    color: white;
 }

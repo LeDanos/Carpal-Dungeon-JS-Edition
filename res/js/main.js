@@ -659,5 +659,9 @@ const showMiss=()=>{
 
 //sponzors
 openSponzors.onclick=()=>{
-    sponzors.style.display="block"
+    if(sponzors.style.display=="none"){
+        sponzors.style.display="block"
+    }else{
+        sponzors.style.display="none"
+    }
 }

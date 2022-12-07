@@ -47,6 +47,14 @@ const dungeonChamber = document.getElementById("dungeonChamber");
 const enemyDiv = document.getElementById("enemyDiv");
 const hit = document.getElementById("hit");
 const miss = document.getElementById("miss");
+const openSponzors = document.getElementById("openSponzors");
+const sponzors = document.getElementById("sponzors");
+const sponzor1 = document.getElementById("sponzor1");
+const sponzor2 = document.getElementById("sponzor2");
+const sponzor3 = document.getElementById("sponzor3");
+const sponzor4 = document.getElementById("sponzor4");
+const sponzor5 = document.getElementById("sponzor5");
+const sponzor6 = document.getElementById("sponzor6");
 
 //variables
 let gamemode=0;
@@ -647,4 +655,9 @@ const showMiss=()=>{
     setTimeout(()=>{
         miss.style.display="none"
     },500)
+}
+
+//sponzors
+openSponzors.onclick=()=>{
+    sponzors.style.display="block"
 }

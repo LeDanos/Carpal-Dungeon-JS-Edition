@@ -408,4 +408,9 @@
     height: 100%;
     top: 0px;
     left: 0px;
+}#version{
+    color: white;
+    position: absolute;
+    top: 93%;
+    left: 93%;
 }

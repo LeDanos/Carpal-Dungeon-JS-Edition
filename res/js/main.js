@@ -56,6 +56,8 @@ const sponzor4 = document.getElementById("sponzor4");
 const sponzor5 = document.getElementById("sponzor5");
 const sponzor6 = document.getElementById("sponzor6");
 
+//Beta v1.0.0
+
 //variables
 let gamemode=0;
 let random=0;

@@ -3,7 +3,7 @@
 }h1{
     font-size: 200%;
 }h2{
-    font-size: 150%;
+    font-size: 140%;
 }h3{
     font-size: 90%;
 }h4{
@@ -24,7 +24,7 @@
     height: 100%;
 }#play{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 40%;
     width: 20%;
     height: 10%;
@@ -351,44 +351,61 @@
 }#sponzor1 img{
     position: absolute;
     height: 80%;
-}#sponzor1 h2{
+}#sponzor1 h3{
     position: absolute;
     top: 80%;
     color: white;
-    left: 12%;
+    left: 18%;
 }#sponzor2 img{
     position: absolute;
     height: 80%;
-}#sponzor2 h2{
+}#sponzor2 h3{
     position: absolute;
     top: 80%;
     color: white;
+    left: 14%;
 }#sponzor3 img{
     position: absolute;
     height: 80%;
-}#sponzor3 h2{
+}#sponzor3 h3{
     position: absolute;
     top: 80%;
     color: white;
+    left: 26%;
 }#sponzor4 img{
     position: absolute;
     height: 80%;
-}#sponzor4 h2{
+}#sponzor4 h3{
     position: absolute;
     top: 80%;
     color: white;
+    left: 20%;
 }#sponzor5 img{
     position: absolute;
     height: 80%;
-}#sponzor5 h2{
+}#sponzor5 h3{
     position: absolute;
     top: 80%;
     color: white;
+    left: 32%;
 }#sponzor6 img{
     position: absolute;
     height: 80%;
-}#sponzor6 h2{
+}#sponzor6 h3{
     position: absolute;
     top: 80%;
     color: white;
+    left: 36%;
+}#logo{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 35%;
+    width: 30%;
+}#logo img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
 }

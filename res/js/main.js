@@ -56,7 +56,7 @@ const sponzor4 = document.getElementById("sponzor4");
 const sponzor5 = document.getElementById("sponzor5");
 const sponzor6 = document.getElementById("sponzor6");
 
-//Beta v1.0.0
+//Beta v1.0.1
 
 //variables
 let gamemode=0;
@@ -92,7 +92,7 @@ let playerMaxHP = 10+(2*hpLvl);
 let baseMaxHP=10
 let dodgeValue = 0;
 let playerCurrentHP = playerMaxHP;
-let cps = 2+(speedLvl/100);
+let cps = 2+(speedLvl/50);
 let baseCps=2
 let cpsLimiter = 0;
 let weaponID = 0;
@@ -132,10 +132,10 @@ weaponIDSend.onclick=()=>{
 const enemySpawnID=()=>{
     if(enemyID==1){
         enemy.src="./res/img/enemies/1.gif"
-        enemyMaxHP=Math.ceil(19+(enemyLvl));
+        enemyMaxHP=Math.ceil(19+(enemyLvl*2));
         enemyCurrentHP=enemyMaxHP;
         setEnemyHP();
-        enemyMeleeDamage=Math.ceil(4+(enemyLvl/2));
+        enemyMeleeDamage=Math.ceil(4+(enemyLvl));
     }
 }
 
@@ -196,7 +196,7 @@ const weaponSpawnID=()=>{
         weapon.src="./res/img/weapons/1.png"
         playerDamage=2+(dmgLvl/4)
         baseDamage=2
-        cps=1+(speedLvl/100)
+        cps=1+(speedLvl/50)
         baseCps=1
         clearInterval(cpsInterval)
         cpsFunction(1000/cps)
@@ -204,7 +204,7 @@ const weaponSpawnID=()=>{
         weapon.src="./res/img/weapons/2.png"
         playerDamage=0.5+(dmgLvl/4)
         baseDamage=0.5
-        cps=4+(speedLvl/100)
+        cps=4+(speedLvl/50)
         baseCps=4
         clearInterval(cpsInterval)
         cpsFunction(1000/cps)
@@ -212,7 +212,7 @@ const weaponSpawnID=()=>{
         weapon.src="./res/img/weapons/3.png"
         playerDamage=6+(dmgLvl/4)
         baseDamage=6
-        cps=0.5+(speedLvl/100)
+        cps=0.5+(speedLvl/50)
         baseCps=0.5
         clearInterval(cpsInterval)
         cpsFunction(1000/cps)

@@ -1,4 +1,4 @@
-# Carpal Dungeon
+# Carpal Dungeon JS Edition
 [Play](https://ledanos.github.io/Carpal-Dungeon/)
 
 # Beta V 1.0.0

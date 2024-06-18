@@ -1,5 +1,5 @@
 # Carpal Dungeon JS Edition
-[Play](https://ledanos.github.io/Carpal-Dungeon/)
+[Play](https://ledanos.github.io/Carpal-Dungeon-JS-Edition/)
 
 # Beta V 1.0.0
 1 Enemy,
